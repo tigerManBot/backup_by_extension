@@ -19,8 +19,13 @@ For example, pdf and .pdf are both acceptable inputs.
 Files included
 --------------
 
-backup_by_extension.py:  
-This backs up all the files with the entered extension type into a folder in the cwd.
+backup_by_extension.py:   
+The program makes a new folder in the cwd called "extension_type_Backup_Folder and copies all the files 
+with the chosen extension type to this folder.  
+For example, if the chosen extension type is txt, the new folder's name will be txt_Backup_Folder.  
+If this folder already exists, then a number is appended(and possibly incremented) to the folder name until a unique 
+folder can be made.
+
 
 delete_by_extension.py: 
 This deletes all the files with the entered extension type.  
@@ -32,8 +37,8 @@ file_extension_functions.py:
 Contains some functions used in both files.  
 
 3 sample files to test these programs on.  
-    * An empty pdf
-    * Two txt files containing dialogue from Mr.Robot
+    * An empty pdf  
+    * Two txt files containing dialogue from Mr.Robot  
 
 
 Requirements
