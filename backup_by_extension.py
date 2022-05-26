@@ -19,7 +19,7 @@ def make_new_folder(ORIGINAL_NAME, incremented_name, number_at_end):
         os.mkdir(incremented_name)
         return incremented_name
     except FileExistsError:
-        number_at_end +=1
+        number_at_end += 1
         incremented_name = f"{ORIGINAL_NAME}{str(number_at_end)}"
         return make_new_folder(ORIGINAL_NAME, incremented_name, number_at_end)
 
