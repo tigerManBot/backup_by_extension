@@ -1,6 +1,8 @@
-# backup_by_exentsion  
-This program performs backups/deletes by file extension type. 
-The delete option sends the files to the trash/recycle bin in case you need those files back. 
+Project description
+-------------------
+
+These two programs perform backups/deletes by file extension type. 
+The delete program sends the files to the trash/recycle bin in case you need those files back. 
 
 
 Input options
