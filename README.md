@@ -33,12 +33,12 @@ These files are sent to the trash/recycle bin, so they are still recoverable.
 The program displays which files are going to be deleted and allows you to exit early 
 if you don't want to delete those files. 
 
-file_extension_functions.py:
+file_extension_functions.py:  
 Contains some functions used in both files.  
 
-3 sample files to test these programs on.  
-    * An empty pdf  
-    * Two txt files containing dialogue from Mr.Robot  
+3 sample files to test these programs on: 
+* An empty pdf  
+* Two txt files containing dialogue from Mr.Robot  
 
 
 Requirements
