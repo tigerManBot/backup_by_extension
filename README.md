@@ -9,7 +9,8 @@ Input options
 -------------
 
 The user can enter the extension type as a command line argument.  
-If no command line argument was entered, the program will ask for a file extension type.
+If no command line argument was entered, the program will ask for a file extension type 
+through terminal input.
 
 The user is free to enter the extension type with a dot or without.  
 For example, pdf and .pdf are both acceptable inputs. 
