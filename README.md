@@ -27,7 +27,7 @@ If this folder already exists, then a number is appended(and possibly incremente
 folder can be made.
 
 
-delete_by_extension.py: 
+delete_by_extension.py:   
 This deletes all the files with the entered extension type.  
 These files are sent to the trash/recycle bin, so they are still recoverable.  
 The program displays which files are going to be deleted and allows you to exit early 
